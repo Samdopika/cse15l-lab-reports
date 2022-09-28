@@ -1,5 +1,4 @@
 
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -10,6 +9,8 @@
 <body>
   <table cellspacing="20">
     <tr>
+        <td><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fsaman-khadivar-60a5031ab&psig=AOvVaw047gXo68Ro7Ow-siCEY9pk&ust=1664422918314000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOCdwtvItvoCFQAAAAAdAAAAABAD" width="200" height="200" alt="A portrait of Saman Khadivar's profile picture"></td>
+        <td>
         <h1>Saman Khadivar</h1>
         <a href="https://www.linkedin.com/in/saman-khadivar-60a5031ab" target="_blank" rel="noopener noreferrer"><img src="https://cliply.co/wp-content/uploads/2021/02/372102050_LINKEDIN_ICON_TRANSPARENT_400.gif" width="40" height="40" alt=""></a>
         <a href="https://www.instagram.com/samkhadivar/?hl=en" target="_blank" rel="noopener noreferrer"><img src="https://cliply.co/wp-content/uploads/2019/07/371907300_INSTAGRAM_ICON_TRANSPARENT_400.gif" width="40" height="40" alt=""></a>
