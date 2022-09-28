@@ -1,3 +1,9 @@
+Hello! Welcome to Saman's CSE 15L Lab Reports
+
+1. [Lab 0: Setup](saman.md) 
+
+
+
 ![Image](https://github.com/Samdopika/cse15l-lab-reports/blob/main/Saman%20Khadivar%20Portrait.jpg?raw=true)
 
 **Saman Khadivar**
