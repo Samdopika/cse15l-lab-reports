@@ -3,4 +3,4 @@
 
 **VS Code Installation**
 ---
-![image]()
+![image](images/Picture1.jpg)
