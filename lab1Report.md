@@ -44,7 +44,7 @@ ssh cs15lfa22<yourGivenInitials>@ieng6.ucsd.edu
 scp /users/your pc user/.ssh/id_rsa.pub cs15lfa22<yourGivenInitials>@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
 5. You're result should look like something like the attached screenshot.
----
+
 **Optimizing Remote Running**
 ---
 ![image](images/Picture6.jpg)
