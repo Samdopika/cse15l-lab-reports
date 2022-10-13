@@ -25,12 +25,23 @@ ssh cs15lfa22<yourGivenInitials>@ieng6.ucsd.edu
 1. So in this part we run some commands in both Our own computer and the server. The screenshot is an example of running the commands in the server computer. 
 2. You may also run the commands in your own computer to compare how your system would run the commands dfferently. 
 3. The expected diffrence that you may face is that the commands will run depending on the files you have in the host system. 
+In the attached screenshot, I have used the following commands. and you can see what each of them do:
+* **cd** : The cd command, also known as chdir (change directory), is a command-line shell command used to change the current working directory in various operating systems ([Wikipedia](https://en.wikipedia.org/wiki/Cd_(command)#:~:text=The%20cd%20command%2C%20also%20known,directory%20in%20various%20operating%20systems.)).
+* **ls** : The ls command is used to list files. "ls" on its own lists all files in the current directory except for hidden files ([Cambridge](https://www.maths.cam.ac.uk/computing/linux/unixinfo/ls#:~:text=The%20ls%20command%20is%20used,directory%20except%20for%20hidden%20files.)).
+* **cd** : The pwd command writes to standard output the full path name of your current directory ([IBM](https://www.ibm.com/docs/en/aix/7.1?topic=p-pwd-command)).
+
 
 **Moving Files with scp**
 ---
 ![image](images/Picture4.jpg)
 1. The command that we use to move a file form either our own computer to the server or from the server to our own computer is called **secure copy (SCP)**. 
 2. So in the last lines of my screenshot you can see that i tried to move the WhereAmI.java file from the server to my own computer. 
+```
+C:\users\samkh>scp cs15lfa22ta1@ieng6.ucsd.edu:~/WhereAmI.java WhereAmI.java
+Password:
+WhereAmI.java
+```
+
 3. Then to test and make sure your file has been moved, you can cd the folder you moved your file to. 
 
 **Setting an SSH Key**
@@ -72,3 +83,5 @@ cs15lfajavac<yourGivenInitials>
 /home/linux/ieng6/cs15lfa22/cs15lfajavac<yourGivenInitials>
 Linux
 ```
+
+samans
