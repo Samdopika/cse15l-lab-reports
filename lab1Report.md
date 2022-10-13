@@ -26,11 +26,13 @@ ssh cs15lfa22<yourGivenInitials>@ieng6.ucsd.edu
 2. You may also run the commands in your own computer to compare how your system would run the commands dfferently. 
 3. The expected diffrence that you may face is that the commands will run depending on the files you have in the host system. 
 In the attached screenshot, I have used the following commands. and you can see what each of them do:
-* **cd** : The cd command, also known as chdir (change directory), is a command-line shell command used to change the current working directory in various operating systems ([Wikipedia](https://en.wikipedia.org/wiki/Cd_(command)#:~:text=The%20cd%20command%2C%20also%20known,directory%20in%20various%20operating%20systems.)).
-* **ls** : The ls command is used to list files. "ls" on its own lists all files in the current directory except for hidden files ([Cambridge](https://www.maths.cam.ac.uk/computing/linux/unixinfo/ls#:~:text=The%20ls%20command%20is%20used,directory%20except%20for%20hidden%20files.)).
-* **cd** : The pwd command writes to standard output the full path name of your current directory ([IBM](https://www.ibm.com/docs/en/aix/7.1?topic=p-pwd-command)).
-
-
+* `cd` : The cd command, also known as chdir (change directory), is a command-line shell command used to change the current working directory in various operating systems.
+* `ls` : The ls command is used to list all files and sub-directories in the current directory.
+* `pwd` : The pwd command prints the path of the working directory.
+* `mkdir` : It is used to make a new directory. 
+* `exit` : The exit command terminates the remote access. 
+* `cat` : The cat command displays the contents of one or more files without having to open the file for editing.
+* `cp` : The cp command is used to copy files or sub-directories to another directory
 **Moving Files with scp**
 ---
 ![image](images/Picture4.jpg)
@@ -83,5 +85,3 @@ cs15lfajavac<yourGivenInitials>
 /home/linux/ieng6/cs15lfa22/cs15lfajavac<yourGivenInitials>
 Linux
 ```
-
-samans
