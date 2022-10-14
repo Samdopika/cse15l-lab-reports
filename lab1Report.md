@@ -32,7 +32,9 @@ In the attached screenshot, I have used the following commands. and you can see 
 * `mkdir` : It is used to make a new directory. 
 * `exit` : The exit command terminates the remote access. 
 * `cat` : The cat command displays the contents of one or more files without having to open the file for editing.
-* `cp` : The cp command is used to copy files or sub-directories to another directory
+* `cp` : The cp command is used to copy files or sub-directories to another directory.
+
+
 **Moving Files with scp**
 ---
 ![image](images/Picture4.jpg)
