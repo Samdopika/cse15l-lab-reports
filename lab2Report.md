@@ -1,3 +1,5 @@
+**Saman Khadivar**
+---
 **Part 1:**
 ---
 My web server can add the input strings to a list and in the function it returns the strings that have the searched substring. 
