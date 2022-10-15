@@ -85,6 +85,8 @@ Here are the steps
 4. Run the `javac WhereAmI.java` command
 
 5. Run the `java WhereAmI` command
+
+
 ```
 Fri Oct 14, 2022 6:45pm - Prepping cs15lfa22
 [cs15lfa22ou@ieng6-203]:~:234$ WhereAmI.java
