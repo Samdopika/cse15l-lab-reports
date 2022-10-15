@@ -87,7 +87,7 @@ We are calling handleRequest for all of them.
 * **This is how i tried to fix the bug:**
 >  In this screenshot i proceeded multiple modifications to fix the bug. but in short, the issue was that it stops swapping once it crosses middle element because the for loop swaps
 it back thus the original method would give us a wrong output:
-![image](Lab3-images\Fixedbug.jpg)
+![image](Lab3-images\FixedBug.jpg)
 
 * **Explanation:**
 
