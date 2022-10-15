@@ -69,16 +69,15 @@ scp /users/your pc user/.ssh/id_rsa.pub cs15lfa22<yourGivenInitials>@ieng6.ucsd.
 1. the screenshot shows when you have you're all set up you you don't need to put your password anymore.
 2. To extend your optimization you can try to change your WhereAmI.java in your PC. 
 3. Then to transfer the file to your remote server you can use the following command:
+
 ```
 scp WhereAmI.java cs15lfa22<yourGivenInitials>@ieng6.ucsd.edu:~/
-
 ```
 
 * **note that if you've set up your key correctly you won't need to put your password in**
 
-Here are the steps
----
 
+Here are the steps:
 1. On your personal computer Make a local edit to WhereAmI.java
 
 2. Use the up arrow twice to get the `scp WhereAmI.java cs15lfajavac<yourGivenInitials>@ieng6.ucsd.edu:~/` command
