@@ -92,7 +92,7 @@ Here are the steps:
 Fri Oct 14, 2022 6:45pm - Prepping cs15lfa22
 [cs15lfa22ou@ieng6-203]:~:234$ WhereAmI.java
 [cs15lfa22ou@ieng6-203]:~:235$ java WhereAmI 
-cs15lfajavacou
+cs15lfa22ou
 /home/linux/ieng6/cs15lfa22/cs15lfa22ou
 /home/linux/ieng6/cs15lfa22/cs15lfa22ou
 Linux
