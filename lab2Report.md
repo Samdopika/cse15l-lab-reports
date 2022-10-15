@@ -112,3 +112,22 @@ The symptom was that instead of [4] we were getting [2] which means the method d
 The symptom was that instead of [5] we were getting [0] which means the method is intended to create a new array called `newArray` and copy the elements of `arr` into `newArray`. Although it is copying emplty elements from `newArray` into `arr`. The reason why we see 0 instead of the numbers in the `arr` is because of the empty elements in `newArray`. 
 
 
+
+<mark>**filter is EXTRA**</mark>
+
+**`filter` Method**
+* **Failure-inducing Input:**
+>  This screenshot is of a test i have built using `wordFunction` to check if the words in the array contain `sh` :
+![image](Lab3-images\filtertest.jpg)
+
+* **Symptom:**
+>  After running the test, the value at result.get(0) turned out to be "Brian", instead of "Saman".:
+![image](Lab3-images\filtersymptom.jpg)
+
+* **This is how i tried to fix the bug:**
+>  In this screenshot i proceeded to fix the bug:(.add is changed)
+![image](Lab3-images\fixedfilter.jpg)
+
+* **Explanation:**
+
+In `wordFunction` i basically am filtering the strings in the array that has `sh` in it. the firts thing i noticed was that the .add function contains an index when called in the method, which causes that everytime a new value is passed through the filter, the new value is added at the index. which was an issue. The other problem is `0` in the `result.add` that is called. this causes every valid string to be added to the front, which makes the new list reversed.
