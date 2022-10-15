@@ -55,9 +55,11 @@ class SearchEngine{
 }
 ```
 * **In following there are screenshots are the server running and using the `add` and `search` function:**
+
 > In this screenshot I've used the `add` command. By doing that i am adding the string "anewstringtoadd"(argument) to the arraylist.(URL:` localhost:4000/add?input=anewstringtoadd`) 
 ![image](Lab3-images\anewstringtoadd.jpg)(parameters:`[anewstringtoadd]` )
 We are calling handleRequest for all of them. 
+
 
 > In this screenshot I've used the `add` command. By doing that i am adding the string "pineapple"(argument) to the arraylist.(URL:` localhost:4000/add?input=pineapple`)(parameters:`[anewstringtoadd, pineapple]` )
 ![image](Lab3-images\pineapple.jpg)
@@ -103,12 +105,10 @@ The symptom was that instead of [4] we were getting [2] which means the method d
 
 * **This is how i tried to fix the bug:**
 >  In this screenshot i proceeded to fix the bug, before, the values of each index of `arr` were updated at eachother. But after switching assignment of the array values:
-![image](Lab3-images\Fixedreverse.jpg)
+![image](Lab3-images\fixedreverse.jpg)
 
 * **Explanation:**
 
 The symptom was that instead of [5] we were getting [0] which means the method is intended to create a new array called `newArray` and copy the elements of `arr` into `newArray`. Although it is copying emplty elements from `newArray` into `arr`. The reason why we see 0 instead of the numbers in the `arr` is because of the empty elements in `newArray`. 
 
 
-
-**`filter` Method**

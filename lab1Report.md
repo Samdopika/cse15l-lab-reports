@@ -55,9 +55,11 @@ WhereAmI.java
 2. Then sign in normally (ssh your account and enter your password)
 3. On your remote server run command 'mkdir .ssh' and you can log out or open another command.
 4. the run the following command:
+
 ```
 scp /users/your pc user/.ssh/id_rsa.pub cs15lfa22<yourGivenInitials>@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
+
 5. You're result should look like something like the attached screenshot.
 
 **Optimizing Remote Running**
@@ -71,6 +73,7 @@ scp /users/your pc user/.ssh/id_rsa.pub cs15lfa22<yourGivenInitials>@ieng6.ucsd.
 scp WhereAmI.java cs15lfa22<yourGivenInitials>@ieng6.ucsd.edu:~/
 
 ```
+
 * **note that if you've set up your key correctly you won't need to put your password in**
 
 Here are the steps
