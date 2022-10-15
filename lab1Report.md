@@ -88,13 +88,6 @@ Here are the steps:
 
 5. Run the `java WhereAmI` command
 
-```
-Fri Oct 14, 2022 6:45pm - Prepping cs15lfa22
-[cs15lfa22ou@ieng6-203]:~:234$ WhereAmI.java
-[cs15lfa22ou@ieng6-203]:~:235$ java WhereAmI 
-cs15lfa22ou
-/home/linux/ieng6/cs15lfa22/cs15lfa22ou
-/home/linux/ieng6/cs15lfa22/cs15lfa22ou
-Linux
-[cs15lfa22ou@ieng6-203]:~:236$
-```
+
+
+![image](images\WhereAmI.jpg)
