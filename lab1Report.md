@@ -39,7 +39,7 @@ In the attached screenshot, I have used the following commands. and you can see 
 ---
 ![image](images/Picture4.jpg)
 1. The command that we use to move a file form either our own computer to the server or from the server to our own computer is called **secure copy (SCP)**. 
-2. So in the last lines of my screenshot you can see that i tried to move the WhereAmI.java file from the server to my own computer. 
+2. So in the last lines of my screenshot you can see that i tried to move the WhereAmI.java file from the server to my own computer. Here are the lines: 
 ```
 C:\users\samkh>scp cs15lfa22ta1@ieng6.ucsd.edu:~/WhereAmI.java WhereAmI.java
 Password:
@@ -69,21 +69,29 @@ scp /users/your pc user/.ssh/id_rsa.pub cs15lfa22<yourGivenInitials>@ieng6.ucsd.
 3. Then to transfer the file to your remote server you can use the following command:
 ```
 scp WhereAmI.java cs15lfa22<yourGivenInitials>@ieng6.ucsd.edu:~/
-```
-* In following:
-4. You may run the following command to access to your remote server:
-```
-ssh cs15lfa22<yourGivenInitials>@ieng6.ucsd.edu
+
 ```
 * **note that if you've set up your key correctly you won't need to put your password in**
 
-5. To make a class of WhereAmI.java and then call the class, you runned code will look like the following code snap:
+Here are the steps
+---
+
+1. On your personal computer Make a local edit to WhereAmI.java
+
+2. Use the up arrow twice to get the `scp WhereAmI.java cs15lfajavac<yourGivenInitials>@ieng6.ucsd.edu:~/` command
+
+3. You can write and also use arrow up to run `ssh cs15lfajavac<yourGivenInitials>@ieng6.ucsd.edu` command
+
+4. Run the `javac WhereAmI.java` command
+
+5. Run the `java WhereAmI` command
 ```
-[cs15lfajavac<yourGivenInitials>@ieng6-203]:~:234$ WhereAmI.java
-*// Then run the java clas
-[cs15lfajavac<yourGivenInitials>@ieng6-203]:~:235$ java WhereAmI 
-cs15lfajavac<yourGivenInitials>
-/home/linux/ieng6/cs15lfa22/cs15lfajavac<yourGivenInitials>
-/home/linux/ieng6/cs15lfa22/cs15lfajavac<yourGivenInitials>
+Fri Oct 14, 2022 6:45pm - Prepping cs15lfa22
+[cs15lfa22ou@ieng6-203]:~:234$ WhereAmI.java
+[cs15lfa22ou@ieng6-203]:~:235$ java WhereAmI 
+cs15lfajavacou
+/home/linux/ieng6/cs15lfa22/cs15lfa22ou
+/home/linux/ieng6/cs15lfa22/cs15lfa22ou
 Linux
+[cs15lfa22ou@ieng6-203]:~:236$
 ```

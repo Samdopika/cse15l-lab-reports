@@ -55,19 +55,60 @@ class SearchEngine{
 }
 ```
 * **In following there are screenshots are the server running and using the `add` and `search` function:**
-*    * In this screenshot I've used the `add` command. By doing that i am adding the string "anewstringtoadd"(argument) to the arraylist. 
-![image](Lab3-images\anewstringtoadd.jpg)
+> In this screenshot I've used the `add` command. By doing that i am adding the string "anewstringtoadd"(argument) to the arraylist.(URL:` localhost:4000/add?input=anewstringtoadd`) 
+![image](Lab3-images\anewstringtoadd.jpg)(parameters:`[anewstringtoadd]` )
+We are calling handleRequest for all of them. 
 
-*   * In this screenshot I've used the `add` command. By doing that i am adding the string "apple"(argument) to the arraylist.
-![image](Lab3-images\apple.jpg)
-
-*   * In this screenshot I've used the `add` command. By doing that i am adding the string "pineapple"(argument) to the arraylist.
+> In this screenshot I've used the `add` command. By doing that i am adding the string "pineapple"(argument) to the arraylist.(URL:` localhost:4000/add?input=pineapple`)(parameters:`[anewstringtoadd, pineapple]` )
 ![image](Lab3-images\pineapple.jpg)
 
+> In this screenshot I've used the `add` command. By doing that i am adding the string "apple"(argument) to the arraylist.(URL:` localhost:4000/add?input=apple`)(parameters:`[anewstringtoadd, pineapple, apple]` )
+![image](Lab3-images\apple.jpg)
+
+
 *  **In this screenshot I've used the `search` command. By doing that i am searching a string as a substring in the arraylist which contains my added inputs. The result will be any string in the arraylist that contains the input i searched.**
-*   * In this example i searched the string `app` which since is a substring for both `pinapple and apple` the result would be expected to be `[pineapple,apple]`. 
+>  In this example i searched the string `app` which since is a substring for both `pinapple and apple` the result would be expected to be `[pineapple,apple]`. (URL:` localhost:4000/search?input=app`)(searchedWords:`[pinapple, apple]` )
 ![image](Lab3-images\Search(app).jpg)
 
 
 **Part 2:**
 ---
+**`reversedInPlace` Method**
+* **Failure-inducing Input:**
+>  This screenshot is of a test. The array i am testing is [1,2,3,4,5] <mark>(basically any array that has distinct elements and has length greater than 2)</mark>. The expected output is [5,4,3,2,1]:
+![image](Lab3-images\Failure-inducingInput.jpg)
+
+* **Symptom:**
+>  After running the test the error indicated that instead of [2], [4] was printed which COULD mean the current output is [1,2,3,2,1]:
+![image](Lab3-images\Symptom.jpg)
+
+* **This is how i tried to fix the bug:**
+>  In this screenshot i proceeded multiple modifications to fix the bug. but in short, the issue was that it stops swapping once it crosses middle element because the for loop swaps
+it back thus the original method would give us a wrong output:
+![image](Lab3-images\Fixedbug.jpg)
+
+* **Explanation:**
+
+The symptom was that instead of [4] we were getting [2] which means the method doesn’t keep the value of the swapped portion, so the other half of the array would be overridden. (**note**: by front and end i mean the front portion and end portion) So i created a letterCount integer to store the value of the end. then put the value from the front to the end and put the letterCount in the front. I also devided the arr.length in the for loop by 2 so i will not past after going through half of the array.  
+
+
+**`reversed` Method**
+* **Failure-inducing Input:**
+>  This screenshot is of a test. The array i am testing is [1,2,3,4,5]. The expected output is [5,4,3,2,1]:
+![image](Lab3-images\reversedtest.jpg)
+
+* **Symptom:**
+>  After running the test the error indicated that instead of [5], [0] was printed which COULD mean the current output is [0,0,0,0,0]:
+![image](Lab3-images\reversedSymptom.jpg)
+
+* **This is how i tried to fix the bug:**
+>  In this screenshot i proceeded to fix the bug, before, the values of each index of `arr` were updated at eachother. But after switching assignment of the array values:
+![image](Lab3-images\Fixedreverse.jpg)
+
+* **Explanation:**
+
+The symptom was that instead of [5] we were getting [0] which means the method is intended to create a new array called `newArray` and copy the elements of `arr` into `newArray`. Although it is copying emplty elements from `newArray` into `arr`. The reason why we see 0 instead of the numbers in the `arr` is because of the empty elements in `newArray`. 
+
+
+
+**`filter` Method**
