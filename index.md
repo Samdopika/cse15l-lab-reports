@@ -5,7 +5,7 @@ Welcome to my CSE 15L Lab Reports:
 2. [Lab 1: Setup](lab1Report.md) 
 3. [Lab 2: URLs, Queries and Bugs](lab2Report.md)
 4. [Lab 3: Researching Commands](lab3Report.md)
-  
+5. [Lab 4: Week 7 Lab Report](lab4Report.md)
    
 
 Contact me:
