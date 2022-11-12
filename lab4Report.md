@@ -10,13 +10,13 @@
 ![image](images\lab4pic1.jpg)
 
 
-**>>Then we write  ```:%s/<start>/```***
+**>>Then we write  ```:%s/<start>/```**
 ---
 
 ![image](images\lab4pic2.jpg)
 
 
-**>>Then we write  ```<base>/g```***
+**>>Then we write  ```<base>/g```**
 ---
 
 ![image](images\lab4pic3.jpg)
