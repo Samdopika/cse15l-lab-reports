@@ -80,6 +80,7 @@ I will trace [The Second Example (**2**)](https://github.com/ucsd-cse15l-f22/lis
 
 2. ```rm -rf student-submission```:
     -  *standard output*:
+    
     ```
     removed 'student-submission/.git/config'
     removed 'student-submission/.git/description'
@@ -96,6 +97,7 @@ I will trace [The Second Example (**2**)](https://github.com/ucsd-cse15l-f22/lis
     removed 'student-submission/TestListExamples.java'
     removed directory 'student-submission'
     ```
+    
     - *standard error* is ```None``` for this run.
     - The return Code : ```Zero```
 
